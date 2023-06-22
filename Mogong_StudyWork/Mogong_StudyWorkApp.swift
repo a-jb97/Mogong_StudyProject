@@ -11,8 +11,7 @@ import SwiftUI
 struct Mogong_StudyWorkApp: App {
     var body: some Scene {
         WindowGroup {
-//            ContentView()
-            LonginSY()
+            ContentView()
         }
     }
 }

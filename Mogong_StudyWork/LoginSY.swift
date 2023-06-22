@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct LonginSY: View {
+struct LoginSY: View {
     
     @State var login: String = ""
     @State var password: String = ""
@@ -88,6 +88,6 @@ struct LonginSY: View {
 
 struct LonginSY_Previews: PreviewProvider {
     static var previews: some View {
-        LonginSY()
+        LoginSY()
     }
 }
