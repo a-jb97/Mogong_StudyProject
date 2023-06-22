@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		57D1BB822A44849A00282640 /* LogInMS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D1BB812A44849A00282640 /* LogInMS.swift */; };
+		57D1BB822A44849A00282640 /* LoginMS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D1BB812A44849A00282640 /* LoginMS.swift */; };
 		D570D6962A408D8100D167B9 /* Mogong_StudyWorkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D570D6952A408D8100D167B9 /* Mogong_StudyWorkApp.swift */; };
 		D570D6982A408D8100D167B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D570D6972A408D8100D167B9 /* ContentView.swift */; };
 		D570D69A2A408D8200D167B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D570D6992A408D8200D167B9 /* Assets.xcassets */; };
@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		57D1BB812A44849A00282640 /* LogInMS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInMS.swift; sourceTree = "<group>"; };
+		57D1BB812A44849A00282640 /* LoginMS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginMS.swift; sourceTree = "<group>"; };
 		D570D6922A408D8100D167B9 /* Mogong_StudyWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mogong_StudyWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D570D6952A408D8100D167B9 /* Mogong_StudyWorkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mogong_StudyWorkApp.swift; sourceTree = "<group>"; };
 		D570D6972A408D8100D167B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -64,7 +64,7 @@
 		D570D69B2A408D8200D167B9 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				57D1BB812A44849A00282640 /* LogInMS.swift */,
+				57D1BB812A44849A00282640 /* LoginMS.swift */,
 				D570D69C2A408D8200D167B9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -140,7 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57D1BB822A44849A00282640 /* LogInMS.swift in Sources */,
+				57D1BB822A44849A00282640 /* LoginMS.swift in Sources */,
 				D570D6982A408D8100D167B9 /* ContentView.swift in Sources */,
 				D570D6962A408D8100D167B9 /* Mogong_StudyWorkApp.swift in Sources */,
 			);

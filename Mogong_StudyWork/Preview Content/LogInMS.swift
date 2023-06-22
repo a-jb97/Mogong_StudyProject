@@ -9,7 +9,7 @@
 
 import SwiftUI
 
-struct LogInMS: View {
+struct LoginMS: View {
     @State private var email: String = ""
     @State private var password: String = ""
     @State private var toggling = false
@@ -52,8 +52,8 @@ struct LogInMS: View {
     }
 }
 
-struct LogInMS_Previews: PreviewProvider {
+struct LoginMS_Previews: PreviewProvider {
     static var previews: some View {
-        LogInMS()
+        LoginMS()
     }
 }
