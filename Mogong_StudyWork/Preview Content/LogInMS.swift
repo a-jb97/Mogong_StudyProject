@@ -9,7 +9,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct LogInMS: View {
     @State private var email: String = ""
     @State private var password: String = ""
     @State private var toggling = false
@@ -52,8 +52,8 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct LogInMS_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        LogInMS()
     }
 }
