@@ -5,51 +5,23 @@
 //  Created by 박서연 on 2023/06/19.
 //
 
-// 로그인 창
-
 import SwiftUI
 
 struct ContentView: View {
-    @State private var email: String = ""
-    @State private var password: String = ""
-    @State private var toggling = false
     
     var body: some View {
-        NavigationStack {
-            VStack(alignment: .leading) {
-                Text("Introduce your credentials")
-                    .foregroundColor(.gray)
-                
-                TextField("Email", text: $email)
-                    .textFieldStyle(.roundedBorder)
-                    .keyboardType(.emailAddress)
-
-                SecureField("Password", text: $password)
-                    .textFieldStyle(.roundedBorder)
-                
-                Toggle(isOn: $toggling) {
-                    Text("Agree to terms and conditions")
-                        .font(.subheadline)
-                }
-                .padding()
-                
-                Button {
-                    print("버튼이 눌렸음")
-                } label: {
-                    Text("Sign in")
-                        .frame(width: 350, height: 30)
-                }
-                .disabled(email.isEmpty || password.isEmpty || !toggling)
-                .buttonStyle(.borderedProminent)
-                
-                .navigationTitle("Log in")
-            }
-            .padding()
-            Spacer()
-            
-            Text("안녕하세용")
+        VStack {
+            Image(systemName: "globe")
+                .imageScale(.large)
+                .foregroundColor(.accentColor)
+            Text("Hello, world!")
+            Text("서연 브랜치 테스트")
+            Text("지영 브랜치 테스트")
         }
+        .padding()
+        
     }
+   
 }
 
 struct ContentView_Previews: PreviewProvider {
