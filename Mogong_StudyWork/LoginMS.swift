@@ -23,7 +23,7 @@ struct LoginMS: View {
                 TextField("Email", text: $email)
                     .textFieldStyle(.roundedBorder)
                     .keyboardType(.emailAddress)
-
+                
                 SecureField("Password", text: $password)
                     .textFieldStyle(.roundedBorder)
                 
@@ -31,21 +31,21 @@ struct LoginMS: View {
                     Text("Agree to terms and conditions")
                         .font(.subheadline)
                 }
-                .padding()
-                
-                Button {
-                    print("버튼이 눌렸음")
-                } label: {
-                    Text("Sign in")
-                        .frame(width: 350, height: 30)
-                }
-                .disabled(email.isEmpty || password.isEmpty || !toggling)
-                .buttonStyle(.borderedProminent)
-                
-                .navigationTitle("Log in")
             }
             .padding()
+            
+            Button {
+                print("버튼이 눌렸음")
+            } label: {
+                Text("Sign in")
+                    .frame(width: 300, height: 30)
+            }
+            .disabled(email.isEmpty || password.isEmpty || !toggling)
+            .buttonStyle(.borderedProminent)
+            .padding()
             Spacer()
+            
+            .navigationTitle("Log in")
         }
     }
 }
