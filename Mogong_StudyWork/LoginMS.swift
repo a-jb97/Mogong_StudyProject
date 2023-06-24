@@ -46,8 +46,6 @@ struct LoginMS: View {
             }
             .padding()
             Spacer()
-            
-            Text("안녕하세용")
         }
     }
 }
