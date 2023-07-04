@@ -1,14 +1,14 @@
 //
-//  Mogong_StudyWorkApp.swift
-//  Mogong_StudyWork
+//  LoginMSApp.swift
+//  LoginMS
 //
-//  Created by 박서연 on 2023/06/19.
+//  Created by 전민석 on 2023/07/04.
 //
 
 import SwiftUI
 
 @main
-struct Mogong_StudyWorkApp: App {
+struct LoginMSApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
