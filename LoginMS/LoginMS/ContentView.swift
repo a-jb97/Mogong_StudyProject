@@ -1,15 +1,13 @@
 //
 //  ContentView.swift
-//  Mogong_StudyWork
+//  LoginMS
 //
-//  Created by 전민석 on 2023/06/21.
+//  Created by 전민석 on 2023/07/04.
 //
-
-// 로그인 창
 
 import SwiftUI
 
-struct LoginMS: View {
+struct ContentView: View {
     @State private var email: String = ""
     @State private var password: String = ""
     @State private var toggling = false
@@ -50,8 +48,8 @@ struct LoginMS: View {
     }
 }
 
-struct LoginMS_Previews: PreviewProvider {
+struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        LoginMS()
+        ContentView()
     }
 }
